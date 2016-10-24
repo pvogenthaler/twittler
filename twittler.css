@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* Custom Styles */
+
+body {
+  background: aliceblue;
+  font: 300 16px/22px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: dimgray;  
+}
+
+/* Header */
+
+header {
+  background: white;
+  padding: 10px 0 10px;
+  border-bottom: thin solid lightgray;
+  height: 30px;
+}
+
+.btn {
+  background: aliceblue;
+  border: medium solid lightgray;
+  border-radius: 5px;
+  padding: 2px 7px 2px 7px;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  border-width: thick;
+}
+
+.btn:active {
+  background: lightgray;
+  color: white;
+  font-weight: bold;
+}
+
+/* User Box */
+
+.userBox {
+  background: white;
+  float: left;
+  width: 175px;
+  height: 150px;
+  border: thin solid lightgray;
+  border-radius: 8px;
+  padding: 20px 50px 20px 50px;
+  margin: 10px auto 10px 35px;
+}
+
+.myName {
+  font-weight: bold;
+}
+
+.myName:hover {
+  text-decoration: underline;
+}
+
+.profPic {
+  background: white;
+  width: 75px;
+  height: 45px;
+  border: medium solid lightgray;
+  border-radius: 8px;
+  margin: 10px auto 10px auto;
+  padding: 15px 0 15px 0;
+}
+
+/* Tweets */
+
+.tweet {
+  background: white;
+  float: center;
+  width: 45%;
+  margin: 10px auto 10px auto;
+  border: thin solid lightgray;
+  border-radius: 8px;
+  padding: 20px 50px 20px 50px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.tweet:hover {
+  border-width: 3px;
+}
+
+.user {
+  display: inline-block;
+  cursor: pointer; 
+}
+
+.user:hover {
+  font-weight: bold;
+}
